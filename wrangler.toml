@@ -1,0 +1,15 @@
+name = "ledger-comics"
+compatibility_date = "2026-09-08"
+pages_build_output_dir = "dist"
+  
+[[d1_databases]]
+binding = "ledger_comics_db"
+database_name = "ledger-comics-db"
+database_id = "0d129c84-ac65-44fc-8d8f-c9e8bf70af2d"
+
+[[r2_buckets]]
+bucket_name = "ledger-comics-files"
+binding = "ledger_comics_files"
+
+[vars]
+SITE_URL = "https://ledger.turneratlanta.com"
